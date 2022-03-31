@@ -1,0 +1,27 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.task-completed {
+  opacity: 0.5%;
+}
+
+.task {
+  font-weight: bold;
+}
+
+.buttonActive {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.error {
+  outline: none;
+  border: 2px solid red;
+
+}
